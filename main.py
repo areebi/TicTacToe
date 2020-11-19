@@ -177,8 +177,8 @@ class MyGame(arcade.Window):
                 if xBlock:
                     self.list_o.append(xBlock)
                     return
-                # Second Move If No Win
 
+                # Second Move If No Win
                 if len(self.list_x) == 2:
                     if self.list_x[0] in [[0, 0], [0, 1], [1, 1]]:
                         self.list_x_translate = self.list_x
